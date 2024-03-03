@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva Em Processo de Liberação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('nome_da_sua_imagem.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .payment-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            max-width: 80%; /* Defina o tamanho máximo para evitar que o conteúdo se estenda muito em telas grandes */
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .pix-container {
+            margin-top: 20px;
+            border: 2px solid #3498db;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        #pixCode {
+            font-family: 'Courier New', monospace;
+            margin-bottom: 10px;
+        }
+
+        #copyButton {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .instructions {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .footer {
+            display: flex;
+            flex-wrap: wrap; /* Permitir que as imagens se movam para a linha seguinte em telas pequenas */
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .footer img {
+            width: 100%; /* Ajuste conforme necessário */
+            max-width: 150px; /* Defina uma largura máxima para garantir que as imagens não fiquem muito grandes */
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px; /* Adicion
+    </style>
+</head>
+<body>
+<div class="header">
+    <!-- Espaço para a logo -->
+    <img class="logo" src="azul logo.png" alt="Sua Logo">
+</div>
+					
+<div class="payment-container">
+    <h1>Reserva Em Processo de Liberação</h1>
+
+    <div class="pix-container">
+        <div id="pixCode">Insira o código Pix aqui</div>
+        <button id="copyButton" onclick="copyPixCode()">Copiar Chave Pix</button>
+    </div>
+</div>
+
+<div>
+
+ <h4> Instruções para pagamento <h4>
+       </div>
+	   <style>
+	   
+    /* Estilize a sua div conforme necessário */
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    /* Estilize as suas imagens conforme necessário */
+    .container img {
+        width: 50px; /* Ajuste a largura conforme necessário */
+        height: auto;
+		{
+	
+    }
+</style>
+
+	   
+                  <div class="container">
+        <img src="01.png" alt="Imagem 1"> <p>Copie a Chave Pix acima</p>
+				</div>
+				<div class=" container">
+         <img src="02.png" alt="Imagem 1"> <p>Abra seu aplicativo de pagamento onde você utiliza o Pix.</p>
+				</div>
+				<div class="container">
+        <img src="03.png" alt="Imagem 1">  <p>Escolha a opção <span>PIX Copia e Cola</span> e insira o código copiado.</p>
+				</div>
+				<div class=" container">
+         <img src="04.png" alt="Imagem 1">  <p>Confirme o valor de pagamento e finalize sua compra.</p>
+				</div>
+    </div>
+    
+	
+	
+										
+						
+						
+						
+						
+						
+	<div>
+	 <style>
+    /* Estilize a sua div conforme necessário */
+    .segurança{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* Estilize as suas imagens conforme necessário */
+    .segurança img {
+        width: 200px; /* Ajuste a largura conforme necessário */
+        height: auto;
+    }
+    </style>
+
+	<div class="segurança">
+	
+        <img src="segurança.jpeg" alt="segurança 1"> 
+				</div>
+	</div>
+	
+<script>
+    function copyPixCode() {
+        var pixCode = document.getElementById("pixCode");
+        var range = document.createRange();
+        range.selectNode(pixCode);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+        document.execCommand("copy");
+        window.getSelection().removeAllRanges();
+        alert("Chave Pix copiada com sucesso!");
+    }
+</script>
+
+</body>
+</html>
